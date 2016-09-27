@@ -1,0 +1,52 @@
+/*
+Theme Name: sebtheme.
+Theme URL: ibrahimitani.com
+Description: theme for sebastian
+Version: 1.1
+Author: ibrahim itani
+Author URL: ibrahimitani.com
+Tags: sebtheme
+*/
+body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:0.8em;width:100%; height:100%; margin: 0px; overflow-y: hidden;}
+.content{float:left; width:88%; overflow: auto; white-space: nowrap; z-index: 1;}
+.header{margin-left: 2%; margin-top: 10%; margin-right: 3%; float:left; width:7%; height: 100%;
+ z-index: -1;}
+.links{margin-top: 5%;}
+.links a:hover {
+    color: white;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  margin-right: 0%;
+  margin-left: -0.3%;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .content img {
+    margin-left: -0.7%;
+}
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .header { 
+    width: 21%;
+    height: 100%;
+  }
+  .content {
+  width: 74%;
+  float:left;
+  overflow: auto; 
+  white-space: nowrap;
+}
+
+  .content img {
+    margin-bottom: 2%;
+    margin-left: -1.7%;
+}
+}
